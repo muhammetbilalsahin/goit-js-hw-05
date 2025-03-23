@@ -1,6 +1,4 @@
 const getUserNames = users => users.map(user => user.name);
-
-// Test verisi ve fonksiyonun çağrılması
 console.log(
   getUserNames([
     { name: 'Moore Hensley', email: 'moorehensley@indexia.com', balance: 2811 },
